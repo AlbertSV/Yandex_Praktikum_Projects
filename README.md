@@ -1,52 +1,52 @@
-## Проекты выполненые в рамках обучения в Яндекс.Практикуме - специалист по Data Science
+## Projects completed as a part of educational process at Yandex Praktikum - Specialist of Data Science.
 
-**Представлены некоторые выполненые проекты в Яндекс.Практикуме:**
+** Some of the completed at projects at Yandex are presented:**
 
-- ***Классификация комментариев*** *(Project_Comments_classification)*
+- ***Comments Classification*** *(Project_Comments_classification)*
 
-Задача - автоматизировать оценку токсичности комментариев в сообществе. Использовались модели   SGDClassifier,   RidgeClassifier,   LogisticRegression.   Удалось получить значение метрики f1_score = 0.77 (необходимое условие больше 0.75). Использованные инструменты: NLTK, Pandas, numpy, sklearn.
+The task is to automate the assessment of the toxicity of comments in the community. Models SGDClassifier, RidgeClassifier, LogisticRegression were used. It was possible to get the value of the metric f1_score = 0.77 (the necessary condition is greater than 0.75). Tools used: NLTK, Pandas, numpy, sklearn.
 
-- ***Определение возраста по фотографии*** *(Project_Computer_Vision)*
+- ***Determination of age by photo*** *(Project_Computer_Vision)*
 
-Задача - определить возраст человека по фотографии. Использованные инструменты:  Matplotlib, Pandas, Seaborn, keras.
+The task is to determine the age of a person from photo. Tools used: Matplotlib, Pandas, Seaborn, keras.
 
-- ***Прогнозирование заказов такси*** *(Project_Taxi_timeseries)*
+- ***Forecasting taxi orders*** *(Project_Taxi_timeseries)*
 
-Задача - обучить модель для предсказания количества заказов такси на следующий час. Для предсказания количества заказов такси на следующий час были построены модели  LGBM  и CatBoost.  Удалось достигнуть значения метрики  RMSE  =  44  (необходимым условием было достигнуть значения меньше 48) Использованные инструменты: CatBoost, LightGBM, Matplotlib, Pandas, StatsModels, numpy, sklearn.
+The task is to train a model to predict the number of taxi orders for the next hour. LGBM and CatBoost models were built to reach the goal. The value of the RMSE metric = 44 were achieved (a necessary condition was to achieve a value less than 48) Used tools: CatBoost, LightGBM, Matplotlib, Pandas, StatsModels, numpy, sklearn.
 
-### Остальные проекты :
+### Other projects :
 
-*Проекты с описанием представлены в соответсвующих их названиям папках*
+*Projects with descriptions are presented in folders corresponding to their names*
 
-- ***Исследование надёжности заёмщиков (папка Project_Clients_solvency)***
+- ***Research of of borrowers' reliability (Project_Clients_solvency folder)***
 
-*Использованные библиотеки:*
+*Libraries used:*
 
 -*pandas*
 -*pymystem3*
 -*matplotlib*
 
-- ***Исследование данных авиакомпании (папка Project_flights_analysis)***
+- ***Airline Data Analysis (Project_flights_analysis folder)***
 
-*Использованные библиотеки:*
+*Libraries used:*
 
 -*pandas*
 -*scipy*
 -*matplotlib*
 -*SQL*
 
-- ***Разработка алгоритма для защиты данных (папка Project_data_protection)***
+- ***Development of an algorithm for data protection (Project_data_protection folder)***
 
-*Использованные библиотеки:*
+*Libraries used:*
 
 -*pandas*
 -*numpy*
 -*seaborn*
 -*sklearn*
 
-- ***Отток клиентов (папка Project_Client_exited)***
+- ***Loss of clients (Project_Client_exited folder)***
 
-*Использованные библиотеки:*
+*Libraries used:*
 
 -*pandas*
 -*numpy*
@@ -54,4 +54,4 @@
 -*seaborn*
 -*sklearn*
 
-- ***Изучение закономерностей, определяющих успешность игр (папка Project_Game)***
+- ***Studying the patterns that determine the success of games (папка Project_Game)***
