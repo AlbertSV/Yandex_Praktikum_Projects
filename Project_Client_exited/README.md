@@ -1,39 +1,39 @@
-## Отток клиентов
+## Clients Loss
 
 
-Из «Бета-Банка» стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
+Customers began to leave Beta-Bank. Every month. A little, but noticeable. Banking marketers figured it was cheaper to keep current customers than to attract new ones.
 
-**Задача**
+**Task**
 
-Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Значение F1-меры нужно довести до 0.59
+It is necessary to predict whether the client will leave the bank in the near future or not. The value of the F1-measure must be brought to 0.59
 
-**Данные**
+**Data**
 
-Источник данных: https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling
+Data source: https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling
 
-***Описание данных:***
+***Data description :***
 
-**Признаки**
+**Features**
 
-- *RowNumber* — индекс строки в данных
-- *CustomerId* — уникальный идентификатор клиента
-- *Surname* — фамилия
-- *CreditScore* — кредитный рейтинг
-- *Geography* — страна проживания
-- *Gender* — пол
-- *Age* — возраст
-- *Tenure* — количество недвижимости у клиента
-- *Balance* — баланс на счёте
-- *NumOfProducts* — количество продуктов банка, используемых клиентом
-- *HasCrCard* — наличие кредитной карты
-- *IsActiveMember* — активность клиента
-- *EstimatedSalary* — предполагаемая зарплата
+- *RowNumber* — data rows index
+- *CustomerId* — unique client identificator
+- *Surname* — clients surname
+- *CreditScore* — credit score of the client
+- *Geography* — coutry of residence
+- *Gender* — gender of the client
+- *Age* — clietns age
+- *Tenure* — amount of property owned by the client 
+- *Balance* — account balance
+- *NumOfProducts* — number of bank products used by the client
+- *HasCrCard* — having a credit card
+- *IsActiveMember* — client activity
+- *EstimatedSalary* — estimated salary
 
-**Целевой признак**
+**Target**
 
-- *Exited* — факт ухода клиента
+- *Exited* — the fact that the client has left
 
-***Использованные библиотеки и инструменты***
+***Used libraries and tools***
 
 - *pandas*
 - *numpy*
@@ -42,4 +42,4 @@
 - *sklearn*
 
 - *math*
-- *машинное обучение*
+
