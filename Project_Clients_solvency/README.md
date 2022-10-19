@@ -1,30 +1,30 @@
-## Исследование надёжности заёмщиков
-**Задача**
+## Research of Borrower Reliability 
+**Task**
 
-Заказчик — кредитный отдел банка. Нужно разобраться, влияет ли семейное положение и количество детей клиента на факт погашения кредита в срок.
+The customer is the credit department of the bank. It is necessary to find out whether the marital status and the number of children of the client affect the fact of repaying the loan on time.
 
-Провести предобработку данных. Выявить влияние отдельных факторов на погашение кредита.
+Perform data preprocessing. Identify the influence of individual factors on loan repayment.
 
-**Данные**
+**Data**
 
-Входные данные от банка — статистика о платёжеспособности клиентов.
+Input data from the bank - statistics on the solvency of customers.
 
-*Структура данных:*
+*Data Structure:*
 
-- *children* — количество детей в семье
-- *days_employed* — общий трудовой стаж в днях
-- *dob_years* — возраст клиента в годах
-- *education* — уровень образования клиента
-- *education_id* — идентификатор уровня образования
-- *family_status* - семейное положение
-- *family_status_id* - идентификатор семейного положения
-- *gender* - пол клиента
-- *income_type* - тип занятости
-- *debt* - имел ли задолженность по возврату кредитов
-- *total_income* - доход в месяц
-- *purpose* - цель получения кредита
+- *children* — amount of children in family 
+- *days_employed* — total work experience in days
+- *dob_years* — clients age in years
+- *education* — clients level education 
+- *education_id* — education level identification 
+- *family_status* - marital status
+- *family_status_id* - matital status identification 
+- *gender* - clients gender
+- *income_type* - type of employment
+- *debt* - did you have any loan repayment arrears?
+- *total_income* - income per month
+- *purpose* - purpose of the loan
 
-**Использованные библиотеки**
+**Libraries used:**
 
 - *pandas*
 - *pymystem3*
