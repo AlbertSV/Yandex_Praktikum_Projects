@@ -1,21 +1,21 @@
-## Классификация комментариев
+## Comments Classification 
 
-**Задача**
+**Task**
 
-Интернет-магазин «Викишоп» запускает новый сервис. Магазину нужен инструмент, который будет искать токсичные комментарии, то есть классифицировать их как негативные и позитивные, и отправлять их на модерацию.
+Online store "Wikishop" launches a new service. The store needs a tool that will look for toxic comments, that is, classify them as negative and positive, and send them for moderation.
 
-Обучить модель классифицировать комментарии на позитивные и негативные. Метрика модели F1 должна быть не меньше 0.75
+Train the model to classify comments into positive and negative. F1 model metric must be at least 0.75
 
-**Данные**
+**Data**
 
-В распоряжении имелись комментарии и классификация их на негативные и позитивные
+There were comments and their classification into negative and positive.
 
-*Структура данных:*
+*Data structure:*
 
-- *text* - в нём содержит текст комментария
-- *toxic* — целевой признак, показывающий позитивный это или негативный комментарий
+- *text* - it contains the comment text
+- *toxic* — target feature showing whether this is a positive or negative comment
 
-**Использованные библиотеки**
+**Libraries used:**
 
 - *pandas*
 - *numpy*
