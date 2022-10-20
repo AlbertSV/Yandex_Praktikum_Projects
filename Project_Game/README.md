@@ -1,19 +1,19 @@
-## Изучение закономерностей, определяющих успешность игр
+## Studying the patterns that determine the success of games
 
-**Задача**
+**Task**
 
-Нужно выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании.
+It is necessary to identify patterns that determine the success of the game. This will allow you to bid on a potentially popular product and plan advertising campaigns.
 
-**Данные**
+**Data**
 
-- *Name* — название игры
-- *Platform* — платформа
-- *Year_of_Release* — год выпуска
-- *Genre* — жанр игры
-- *NA_sales* — продажи в Северной Америке (миллионы долларов)
-- *EU_sales* — продажи в Европе (миллионы долларов)
-- *JP_sales* — продажи в Японии (миллионы долларов)
-- *Other_sales* — продажи в других странах (миллионы долларов)
-- *Critic_Score* — оценка критиков (максимум 100)
-- *User_Score* — оценка пользователей (максимум 10)
-- *Rating* — рейтинг от организации ESRB (англ. Entertainment Software Rating Board).
+- *Name* — game name
+- *Platform* — the platform on which the game is implemented
+- *Year_of_Release* — the year when the game was released
+- *Genre* — game genre
+- *NA_sales* — sales in North America (millions of dollars)
+- *EU_sales* — sales in Europe (millions of dollars)
+- *JP_sales* — sales in Japan (millions of dollars)
+- *Other_sales* — sales in other countries (millions of dollars)
+- *Critic_Score* — Critics score (max 100)
+- *User_Score* — user score (maximum 10)
+- *Rating* — rating from the ESRB (Entertainment Software Rating Board).
