@@ -1,24 +1,24 @@
-## Разработка алгоритма для защиты данных
+## Development of an algorithm for data protection
 
-**Задача**
+**Task**
 
-Вам нужно защитить данные клиентов страховой компании «Хоть потоп». Разработайте такой метод преобразования данных, чтобы по ним было сложно восстановить персональную информацию. Обоснуйте корректность его работы.
+You need to protect the data of customers of the insurance company "Though the Flood". Develop a data transformation method that makes it difficult to recover personal information from it. Justify the correctness of its work.
 
-Нужно защитить данные, чтобы при преобразовании качество моделей машинного обучения не ухудшилось.
+You need to protect the data so that the quality of the machine learning models does not deteriorate during the transformation.
 
-**Данные**
+**Data**
 
-- *Пол*
-- *Возраст*
-- *Зарплата*
-- *Члены семьи*
-- *Страховые выплаты*
+- *Пол* - Gender
+- *Возраст* - Age
+- *Зарплата* - Salary
+- *Члены семьи* - Family members
+- *Страховые выплаты* - Insurance payments
 
-***Использованные библиотеки и инструменты***
+***Used libraries and tools***
 
 - *pandas*
 - *numpy*
 - *seaborn*
 - *sklearn*
 
-- *машинное обучение*
+- *machine learning*
