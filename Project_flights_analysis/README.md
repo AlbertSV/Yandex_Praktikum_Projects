@@ -1,37 +1,37 @@
-## Исследование данных авиакомпании
+## Airline Data Exploration
 
-Вы аналитик российской авиакомпании F9, выполняющей внутренние пассажирские перевозки. Важно понять предпочтения пользователей, покупающих билеты на разные направления.
+You are an analyst for the Russian domestic airline F9. It is important to understand the preferences of users who buy tickets to different destinations.
 
-**Задача**
+**Task**
 
-Вам предстоит изучить базу данных и проанализировать спрос пассажиров на рейсы в города, где проходят крупнейшие культурные фестивали.
+You have to study the database and analyze the demand of passengers for flights to cities where the largest cultural festivals take place.
 
-Проверьте гипотезу: «Средний спрос на билеты во время фестивалей не отличается от среднего спроса на билеты в обычное время».
+Test the hypothesis: “Average demand for tickets during festivals does not differ from average demand for tickets during normal times.”
 
-**Данные**
+**Data**
 
-query_1.csv — результат первого запроса.
+query_1.csv — first request result.
 
-- *model* - модель самолета
-- *flights_amount* - количество рейсов для каждой модели самолетов model в сентябре 2018 года
+- *model* - airplane model
+- *flights_amount* - number of flights for each model aircraft model in September 2018
 
-query_3.csv - результат третьего запроса.
+query_3.csv - third query result
 
-- *city* - город
-- *average_flights* - среднее количество рейсов, прибывающих в город (city) за день в сентябре 2018 года
+- *city* - city
+- *average_flights* - average number of flights arriving in a city per day in September 2018
 
-query_last.csv — результат последнего запроса.
+query_last.csv — last query result.
 
-- *week_number* - номер недели
-- *ticket_amount* - количество проданных билетов за неделю
-- *festival_name* - название фестиваля
-- *festival_week* - есть ли на этой неделе фестиваль
+- *week_number* - week number
+- *ticket_amount* - number of tickets sold per week
+- *festival_name* - festival name
+- *festival_week* - is there a festival this week
 
-***Использованные библиотеки и инструменты***
+***Used libraries and tools***
 
 - *pandas*
 - *matplotlib*
 - *scipy*
 - *SQL*
 
-- *проверка гипотез*
+- *hypothesis testing*
