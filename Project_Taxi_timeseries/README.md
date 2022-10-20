@@ -1,23 +1,23 @@
-## Прогнозирование заказов такси
+## Forecasting taxi orders
 
-**Задача**
+**Task**
 
-Компания такси предоставила исторические данные о заказах в аэропортах.
+The taxi company provided historical data on bookings at airports.
 
-Нужно спрогнозировать количество заказов такси на следующий час, чтобы компания смогла привлекать больше водителей в часы пик.
+It is necessary to predict the number of taxi orders for the next hour so that the company can attract more drivers during peak hours.
 
-Значение метрики RMSE на тестовой выборке должно быть не больше 48.
+The value of the RMSE metric on the test sample should be no more than 48.
 
-**Данные**
+**Data**
 
-В распоряжении имелись данные с датой и количеством заказов такси
+Data with the date and number of taxi orders were available
 
-*Структура данных:*
+*Data structure:*
 
-- *datetime* - время
-- *num_orders* - количество заказов такси в аэропортах
+- *datetime* - time of the orders
+- *num_orders* - number of taxi orders at airports
 
-**Использованные библиотеки**
+**Libraries used**
 
 - *pandas*
 - *numpy*
